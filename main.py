@@ -11,14 +11,9 @@ import schedule
 
 # Write your wallet address
 WALLET_ADDRESS = "YOUR_WALLET_ADRESS"
-
-TELEGRAM_BOT_TOKEN = "7881914890:AAH6HMFK7HvYER-xI_5vVwgfr9F6gpHNBtc"
 # Write your TELEGRAM chat id
 TELEGRAM_CHAT_ID = "YOUR_TG_CHAT_ID"
-
 HELIUS_API_KEY = "YOUR__HELIUSNODE_API_KEY"
-HELIUS_RPC_URL = f"https://mainnet.helius-rpc.com/?api-key={HELIUS_API_KEY}"
-
 # create your google_cloud_token, instruction in read.me
 SERVICE_ACCOUNT_FILE = "g_cloud_toke.json"
 # Write your spreadsheet name 
@@ -26,7 +21,12 @@ SPREADSHEET_NAME = "YOUR_SPREADSHEET_NAME"
 # Write your sheet name 
 SHEET_NAME = "YOUR_SHEET_NAME"
 # Your Google spreadsheet link 
-SPREADSHEET_LINK = "https://docs.google.com/spreadsheets/d/1F3C7zeSu5v87rcfwmJiQRGibMEgRsA9EyP17XY7yJRI/edit?gid=1974413569#gid=1974413569"
+SPREADSHEET_LINK = "YOUR_SPREADSHEET_LINK"
+# Write your TG bot api token
+TELEGRAM_BOT_TOKEN = "YOR_TELEGRAM_BOT_API_TOKEN"
+
+HELIUS_RPC_URL = f"https://mainnet.helius-rpc.com/?api-key={HELIUS_API_KEY}"
+
 
 
 def unix_to_datetime(timestamp):
